@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@400;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+ .err1-row h5{
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom:10px;
+    font-size: 14px;
+}
+.err1-row img{
+    width: 80px;
+    margin-left: 33%;
+
+}
+
+.err1-row{
+    text-align: center;
+    justify-content: center;
+   
+}
+.err1okBtn{
+text-decoration: none;
+ border: 1px solid #ff0000;
+ color: #ff0000;
+ background-color: #fff;
+ font-size: 18px;
+ text-align: center;
+ padding: 5px 20px;
+ width: 80px;
+ font-family: 'Yuji Hentaigana Akebono',sans-serif;
+margin-left: 85px;
+ font-weight: bold;
+ border-radius: 5px;
+}
+
+.err1okBtn:hover{
+    text-decoration: none;
+     border: 1px solid #ff0000;
+     color: #ff0000;
+     background-color: #fff;
+     font-size: 18px;
+     text-align: center;
+     padding: 5px 20px;
+     width: 80px;
+     font-family: 'Yuji Hentaigana Akebono',sans-serif;
+    margin-left: 85px;
+     font-weight: bold;
+     border-radius: 5px;
+    }
+.err1-closeBtn{
+ text-align: end;
+ margin-right: 0px;
+ }
+ .err1-closeBtn button{
+     background: none;
+     color: #fff;
+     border: none;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-size: 14px;
+     font-weight: bold;
+     margin-top: 3px;
+     border-radius: 80%;
+ }
+ 
+ .err1-top-section {
+     background: #ff0000;
+     border-radius: 10px 10px 0px 0px;
+     display: grid;
+     grid-template-columns: 60% 30%;    
+ }
+ 
+.err1-body-popup{
+ display: flex;
+ margin: 0;
+ margin-top: -880px;
+ height: 130vh;
+ justify-content: center;
+ align-items: center;
+ background: #c03a2b3a;
+ position: relative;
+ font-family: Raleway;
+ color: white;
+ letter-spacing: 1px;
+}
+.err1-card-form {
+ width: 300px;
+ border-radius: 10px;
+ background: white;
+ box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+.err1-card-form .err1-form-title {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ height: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ background: #ff0000;
+ border-radius: 10px 10px 0 0;
+}
+.err1-card-form .err1-form-body {
+ padding: 10px;
+}
+.err1-card-form .err1-form-body .err1-row {
+ display: grid;
+ grid-template-columns:100%;
+ justify-content: space-around;
+ padding: 10px;
+ 
+}

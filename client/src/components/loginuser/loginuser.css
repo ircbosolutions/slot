@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Rajdhani:wght@400;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@400;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body{
+ 
+}
+
+.user-full-homepage{
+   display: grid;
+  height: 100%;
+  place-items: center;
+  background: #f9f9f9;
+  font-family: 'Poppins',sans-serif;
+}
+
+/* nav bar */
+
+.user-nav-text{
+  width: 100%;
+  text-align: start;
+  margin-left: -250px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  
+  
+}
+
+.user-nav-bar{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+  
+}
+
+.user-nav-text h1{
+  
+  color: #ff0000;
+  font-family: 'Rajdhani',sans-serif;
+  font-size: 32px;
+}
+
+
+.user-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+  margin-top: 30px;
+  align-items: center;
+}
+.user-wrapper{
+  width: 400px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: -50px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  border: 1px solid #ff0000;
+  margin-left: 40px;
+
+}
+
+.user-wrapper .user-title1{
+  line-height: 80px ;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #f9f9f9;
+  padding-left: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.user-wrapper form{
+  padding: 0 30px;
+
+}
+
+.user-wrapper form .user-row{
+
+    height: 45px;
+    background: #f9f9f9;
+    margin-bottom: 25px;
+    position: relative;
+}
+.user-wrapper form .user-row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-family: 'Poppins',sans-serif;
+  padding-left: 60px;
+  font-size: 16px;
+
+}
+
+input[type="text"]{
+  font-family: 'Poppins',sans-serif;
+}
+
+.user-wrapper form .user-row span{
+  position: absolute;
+  width:47px ;
+  height: 100%;
+  background: #D70317;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border-radius:5px  0px 0 5px;
+  color: #f9f9f9;
+
+}
+
+.user-wrapper form .button input{
+  padding-left: 0;
+  background: #ff0000;
+  color: #f9f9f9;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.user-logo img{
+  width: 180px;
+  top: 17px;
+  position: absolute;
+  left: 12.5%;
+}
+
+.registerButton img{
+
+  margin-left: 20px;
+  width: 130px;
+
+}
+
+.user-title1 img{
+  width: 150px ;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+/* .pass a{
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 14px;
+
+  
+}
+.pass{
+  margin-top: 0px;
+} */
+.user-login-section img {
+  width: 110px;
+  margin-top: -5px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.user-pass1{
+  margin-top: 10px;
+}
+
+.user-pass1 img{
+  width: 60px;
+  margin-top: -10px;
+  cursor: pointer;
+  margin-left: 40px;
+
+}
+
+.user-pass1{
+  margin-top: 20px;
+}
+
+.user-pass1 img{
+  width: 50px;
+  margin-top:-10px;
+  cursor: pointer;
+  margin-left: 50px;
+  position: absolute;
+}
+
+
+.user-pass2{
+  margin-top: 30px;
+}
+
+.user-pass2 img{
+  width: 130px;
+  margin-top: -10px;
+  cursor: pointer;
+  margin-left: 35px;
+  position: absolute;
+}
+
+
+
+
+
+/* left section container */
+
+.user-left-section-container{
+  width: 600px;
+  
+    margin-top: -48px;
+  background: url(../images/piller2.png);
+  background-position: left;
+  height: 84vh;
+  background-repeat: no-repeat;
+
+
+ 
+
+}
+
+.user-img-container{
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  height: 22vh;
+
+  background-position: center;
+ 
+  background: url(../images/unnamed.gif);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+  align-items: center;
+  margin-left: 160px;
+  margin-top: 220px;
+}
+
+.user-left-section-container .user-img-container .user-world-img img{
+  margin-left: 70px;
+  width: 160px;
+}
+
+.user-left-section-container .user-img-container .user-learning-img img{
+  margin-left: 0px;
+  margin-top: -60px;
+  width: 140px;
+}
+
+.user-left-section-container .user-img-container .user-learning-img2 img{
+  margin-left: -40px;
+  margin-top: -60px;
+  width: 140px;
+}
+
+.user-left-section-container .user-img-container .user-slot-img img {
+  position: absolute;
+  margin-top: -60px;
+margin-left: -55px;
+  width: 140px;
+
+}
+
+.bottom-text{
+  width: 100%;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 6px;
+  color: #ff0000;
+}
+
+/* .bottom-text h1 sup{
+  
+
+  font-size: 6px;
+  color: #ff0000;
+} */
+
+.user-global_access img{
+  width: 370px;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.bott-text{
+    align-items: center;
+}
+
+/* checkbox */
+.user-login-section input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.user-login-section label {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-login-section label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.user-login-section input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #ff0000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+
+
+@media (mix-width:768px) {
+ 
+  .user-nav-text h1 {
+    color: #ff0000;
+    margin-left: 80px;
+  
+    font-size: 27px;
+}
+.user-left-section-container{
+  margin-top: -40px;
+}
+}
+
+
+@media screen and  (max-width:425px) {
+
+  
+.user-logo img{
+  width: 110px;
+  top: 17px;
+  position: absolute;
+  left: 12.5%;
+}
+
+
+
+  .user-wrapper form .user-row input{
+    height:36px;
+  }
+  
+  .user-nav-text h1 {
+    text-align: start;
+    color: #ff0000;
+    margin-top: 15px;
+    font-family: 'Rajdhani',sans-serif;
+    font-size: 18px;
+    margin-left:0px;
+    
+    
+}
+
+.user-nav-text{
+  margin-top:0px ;
+  margin-left: 0px;
+}
+.user-login-section img {
+  width: 98px;
+  margin-top: 0px;
+  cursor: pointer;
+  margin-left: 5px;
+  position: absolute;
+}
+  .user-wrapper {
+    width: 320px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -50px;
+    padding-top: 25px;
+    padding-bottom: 65px;
+    border: 1px solid #ff0000;
+    margin-left: 40px;
+}
+
+  .user-grid{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .user-wrapper form .user-row span {
+    position: absolute;
+    width: 36px;
+    height: 100%;
+    background: #D70317;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 36px;
+    border-radius: 5px 0px 0 5px;
+    color: #f9f9f9;
+}
+.user-login-section label {
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+
+.user-pass1 {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.user-pass1 img {
+  width: 44px;
+  margin-top: -10px;
+  cursor: pointer;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.user-pass2 {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.user-pass2 img {
+  width: 110px;
+  margin-top: -12px;
+  cursor: pointer;
+  margin-left: 25px;
+  position: absolute;
+}
+
+.user-title1 img {
+  width: 135px;
+  justify-content: center;
+  align-items: center;
+}
+
+  .user-wrapper{
+    margin-left: 10px;
+  }
+
+  .user-left-section-container{
+    display: none;
+  }
+
+}
+
+@media (max-width:320px) {
+  .user-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+  }
+
+  .bottom-text{
+margin-top: 20px;
+  }
+  
+}
+@media (max-width:425px) {
+  .user-wrapper{
+    margin-top: -40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+  }
+  
+}
+/* 
+
+@media (min-width:1024px) {
+
+  .user-nav-text{
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 30px;
+    
+  }
+  .user-left-section-container{
+    margin-top: -78px;
+  }
+  .user-logo img{
+    margin-left: -30px;
+  }
+  
+} */

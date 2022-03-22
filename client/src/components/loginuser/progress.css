@@ -1,0 +1,65 @@
+.progress-big-container{
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+}
+.progress-container
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+.progress-container h3{
+    color: black;
+}
+.progress-container2
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.progress-container2 img{
+    width: 100px;
+}
+.progress-container2 h3{
+    color: black;
+}
+
+.sucessMsg{
+    margin-top: 18%;
+    text-align: center;
+    height: 300px;
+}
+
+.sucessMsg img{
+    width: 120px;
+}
+.okBtn1{
+    text-decoration: none;
+ border: 1px solid #4DAF51;
+ color: #4DAF51;
+ background-color: #fff;
+ font-size: 18px;
+ text-align: center;
+ padding: 5px 20px;
+ width: 80px;
+ font-family: 'Yuji Hentaigana Akebono',sans-serif;
+
+ font-weight: bold;
+ border-radius: 5px;
+}
+
+.okBtn1:hover{
+    text-decoration: none;
+ border: 1px solid #4DAF51;
+ color: #4DAF51;
+ background-color: #fff;
+ font-size: 18px;
+ text-align: center;
+ padding: 5px 20px;
+ width: 80px;
+ font-family: 'Yuji Hentaigana Akebono',sans-serif;
+
+ font-weight: bold;
+ border-radius: 5px;
+}

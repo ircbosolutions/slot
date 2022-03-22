@@ -1,0 +1,112 @@
+.exam1-big-container{
+    padding: 10px 100px;
+
+}
+.exam1-top-container{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.exam1-top-container h4 strong{
+    color: #ff0000;
+    font-size:18px ;
+}
+.exam1-top-container h4 i{
+    font-size: 14px;
+}
+.exam1-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+/* .exam1-right-container div button{
+    width: auto;
+} */
+.exam-start-container{
+    width: 100%;
+}
+.status-options{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.closeBtnExam{
+    color: #ff0000;
+    background: none;
+    border: 1px solid #ff0000;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.backButtonExam{
+    text-align: center;
+}
+
+.closeBtnExam:hover{
+    color: #fff;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.exam1-left-container{
+    width: auto;
+    height: 70vh;
+    text-align: left;
+
+    border: 1px solid black;
+}
+.exam1-left-container h5{
+    padding:10px ;
+    background-color: #ff0000;
+    color: white;
+    margin:10px ;
+    margin-bottom: 20px;
+}
+.selectButtonExam{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 17%;
+}
+.selectButtonExam button{
+    width: auto;
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    height: 35px;
+}
+.submitAnswerButton{
+    text-align: center;
+margin-top: 50px;
+}
+
+.exam1-left-container p{
+    font-size: 12px;
+    padding:10px ;
+    font-weight: 500;
+}
+.exam1-left-container p span{
+    font-weight: 400;
+}
+.exam1-right-container p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.exam1-right-container div h4{
+    text-align: center;
+    padding: 10px;
+    color: #ff0000;
+}
+.exam1-right-container div button{
+    
+}
+
+.rightFa1{
+    color:#ff0000;
+    font-size: 14px;
+    margin-left: 10px;
+}

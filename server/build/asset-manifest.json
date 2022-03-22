@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37a0256f.css",
+    "main.js": "/static/js/main.81d1e0bc.js",
+    "static/media/vdo.mp4": "/static/media/vdo.120c7c0d75a575e71c46.mp4",
+    "static/media/globe.gif": "/static/media/globe.595450f42bebcb7d8d89.gif",
+    "static/media/salary.pdf": "/static/media/salary.e30f6d46b2dedea2455f.pdf",
+    "static/media/rgnow.gif": "/static/media/rgnow.a65152590f4eaf9dc931.gif",
+    "static/media/wrong.gif": "/static/media/wrong.71f2795ade0a21b84503.gif",
+    "static/media/welcome.gif": "/static/media/welcome.a5d9c72634f2482822d3.gif",
+    "static/media/learning.gif": "/static/media/learning.0764ff132144eceb6a16.gif",
+    "static/media/login1.png": "/static/media/login1.e64b2a2442e4321c983b.png",
+    "static/media/loading.gif": "/static/media/loading.09ad0de11adc36bd2892.gif",
+    "static/media/success.gif": "/static/media/success.3a958c878eb35975b42a.gif",
+    "static/media/welcome2.gif": "/static/media/welcome2.d03421d6df458b13a801.gif",
+    "static/media/Picture1.png": "/static/media/Picture1.e455b6665d408dea7ae4.png",
+    "static/media/slotlogo2.png": "/static/media/slotlogo2.445e68c366b2cbb5cefd.png",
+    "static/media/att.png": "/static/media/att.cfe66b8281bd56625d04.png",
+    "static/media/unnamed.gif": "/static/media/unnamed.ae845a01c62852d7fc8a.gif",
+    "static/media/arrow.gif": "/static/media/arrow.00444023c78c8a7705ef.gif",
+    "static/media/success1.jpg": "/static/media/success1.7e54dc5b20ccba9a55fe.jpg",
+    "index.html": "/index.html",
+    "main.37a0256f.css.map": "/static/css/main.37a0256f.css.map",
+    "main.81d1e0bc.js.map": "/static/js/main.81d1e0bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37a0256f.css",
+    "static/js/main.81d1e0bc.js"
+  ]
+}

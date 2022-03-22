@@ -1,0 +1,164 @@
+.exam-container{
+    display: grid;
+    
+    grid-template-columns: repeat(8,1fr);
+    color: black;
+    text-align: center;
+}
+
+.exam-container div{
+    border: 1px solid black;
+    
+}
+.exam-container div h3{
+   color: black;
+    
+}
+.exam_list_container{
+    padding: 10px 100px;
+
+}
+
+.exam-list-upper-container{
+  
+    text-align: center;
+  
+    padding: 10px;
+}
+/* table */
+
+.table-container-examlist{
+  display: flex;
+  justify-content:center;
+  font-family: laila;
+}
+.select-course-id-container{ 
+  text-align: center;
+  width: auto;
+  padding-top: 10px;
+}
+.select-course-id-container select{
+  background-color: antiquewhite;
+  border: 1px solid #000;
+  
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.select-course-id-container select:focus{ 
+  outline: none;
+  
+}
+.select-course-id-container select:hover{
+ cursor: pointer;
+  
+}
+.select-course-id-container button{
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  background-color: aliceblue;
+  
+}
+.select-course-id-container button:hover{
+  color: #fff;
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
+  cursor: pointer;
+  
+}
+.table-container-examlist div{
+  width: 95%;
+  margin-top: 10px;
+  height: auto;
+  overflow-y: hidden;
+ 
+}
+.table-container-examlist div table{
+  width: 1100px;
+  text-align: left;
+  overflow-y: scroll;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+.table-container-examlist div table thead tr{
+  color:white;
+  text-align: left;
+  background-color: #eb4b4b;
+  padding: 10px;
+  font-size:1.1em ;
+}
+.table-container-examlist div table thead tr th{
+  width:90px;
+  font-size: 12px;
+  padding: 5px;
+}
+.table-container-examlist div table tbody tr{
+  color: #000;
+ 
+  text-align: left;
+}
+.table-container-examlist div table tbody tr td{
+  font-size: 12px;
+
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+  .closeBtnExamList{
+      text-decoration: none;
+      color: white;
+      background-color: #ff0000;
+      cursor: pointer;
+      padding: 5px 20px;
+      border-radius: 5px;
+      font-size: 12px;
+      
+  }
+  
+  
+  .exam-list-upper-container h4 strong{
+      color: #ff0000;
+      font-size: 18px;
+  }
+  
+  .exam_start_btn{
+    text-decoration: none;
+    color:#ff0000;
+    border: 1px solid #ff0000;
+    padding: 3px;
+    font-size: 10px;
+  }
+  .exam_start_btn:hover{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  .exam_start_text{
+    cursor:not-allowed;
+   text-decoration: none;
+    color:#ff0000;
+    border: 1px solid #ff0000;
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* general styling */
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }

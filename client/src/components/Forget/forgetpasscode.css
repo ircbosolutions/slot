@@ -1,0 +1,327 @@
+.Forget-row select{
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.Forget-row select:focus{
+    border: 1px solid #ff0000;
+}
+
+.Forget-row1{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@400;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+ .ForgetPop-row h5{
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom:10px;
+    font-size: 14px;
+}
+.ForgetPop-row img{
+    width: 80px;
+    margin-left: 33%;
+
+}
+
+.ForgetPop-row{
+    text-align: center;
+    justify-content: center;
+   
+}
+.okBtn{
+text-decoration: none;
+ border: 1px solid #7cf782;
+ color: #7cf782;
+ background-color: #fff;
+ font-size: 18px;
+ text-align: center;
+ padding: 5px 20px;
+ width: 80px;
+ font-family: 'Yuji Hentaigana Akebono',sans-serif;
+margin-left: 85px;
+ font-weight: bold;
+ border-radius: 5px;
+}
+
+.okBtn:hover{
+    text-decoration: none;
+     border: 1px solid #7cf782;
+     color: #7cf782;
+     background-color: #fff;
+     font-size: 18px;
+     text-align: center;
+     padding: 5px 20px;
+     width: 80px;
+     font-family: 'Yuji Hentaigana Akebono',sans-serif;
+    margin-left: 85px;
+     font-weight: bold;
+     border-radius: 5px;
+    }
+.ForgetPop-closeBtn{
+ text-align: end;
+ margin-right: 0px;
+ }
+ .ForgetPop-closeBtn button{
+     background: none;
+     color: #fff;
+     border: none;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-size: 14px;
+     font-weight: bold;
+     margin-top: 3px;
+     border-radius: 80%;
+ }
+ 
+ .ForgetPop-top-section {
+     background: #ff0000;
+     border-radius: 10px 10px 0px 0px;
+     display: grid;
+     grid-template-columns: 60% 30%;    
+ }
+ 
+.ForgetPop-body-popup{
+ display: flex;
+ margin: 0;
+ margin-top: -150px;
+ height: auto;
+ justify-content: center;
+ align-items: center;
+ background: #c03a2b3a;
+ position: relative;
+ font-family: Raleway;
+ color: white;
+ letter-spacing: 1px;
+}
+.ForgetPop-card-form {
+ width: 300px;
+ border-radius: 10px;
+ border: 1px solid #ff0000;
+ background: white;
+ box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+.ForgetPop-card-form .ForgetPop-form-title {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ height: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ background: #ff0000;
+ border-radius: 10px 10px 0 0;
+}
+.ForgetPop-card-form .ForgetPop-form-body {
+ padding: 10px;
+}
+.ForgetPop-card-form .ForgetPop-form-body .ForgetPop-row {
+ display: grid;
+ grid-template-columns:100%;
+ justify-content: space-around;
+ padding: 10px;
+ 
+}
+.Forget-row1 input{
+    margin-left: 40px;
+    font-size: 14px;
+    background: none;
+
+}
+
+.Forget-row1 button{
+ background: none;
+ color: #ff0000;
+ border: 1px solid #ff0000;
+ margin-left: 130px;
+ font-size: 14px;
+ text-align: center;
+padding-top: 5px;
+padding-bottom:5px ;
+ width: 80px;
+ margin-top: 10px;
+align-items: center;
+
+ border-radius: 5px;
+}
+.Forget-closeBtn{
+ text-align: end;
+ margin-right: 20px;
+ }
+ .Forget-closeBtn button{
+     background: none;
+     color: #fff;
+     border: none;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-size: 14px;
+     font-weight: bold;
+     margin-top: 3px;
+     border-radius: 80%;
+ }
+ 
+ .Forget-top-section {
+     background: #ff0000;
+     border-radius: 10px 10px 0px 0px;
+     display: grid;
+     grid-template-columns: 70% 30%;    
+ }
+ 
+.Forget-body-popup{
+ display: flex;
+ margin: 0;
+ margin-top: -680px;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+ background: #c03a2b3a;
+ position: relative;
+ font-family: Raleway;
+ color: white;
+ letter-spacing: 1px;
+}
+.Forget-card-form {
+ width: 300px;
+ border-radius: 10px;
+ background: white;
+ box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+.Forget-card-form .Forget-form-title {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ height: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ background: #ff0000;
+ border-radius: 10px 10px 0 0;
+}
+.Forget-card-form .Forget-form-body {
+ padding: 10px;
+}
+.Forget-card-form .Forget-form-body .Forget-row {
+ display: grid;
+ grid-template-columns: 100%;
+ justify-content: space-around;
+ padding: 10px;
+ text-align: center;
+ 
+}
+
+.Forget-card-form .Forget-form-body .Forget-row input[type="text"] {
+ appearance: none;
+ width: auto;
+ margin: 5px 5px;
+ height: 35px;
+ padding: 5px 15px;
+ border-radius: 5px;
+ outline: none;
+ border: none;
+ background: #e8ebed;
+ color: #576366;
+ font-size: 14px;
+}
+.Forget-card-form .Forget-rule {
+ height: 2px;
+ background: #e8ebed;
+ margin: 0px 35px;
+}
+.Forget-card-form .Forget-form-footer {
+width: 100%;
+text-align: center;
+ padding: 15px 10px;
+}
+.rule-btn{
+    text-align: center;
+}
+.rule-btn button{
+ display: inline-block;
+ height: 30px;
+ line-height: 0px;
+ border: 1px solid #ff0000;
+ cursor: pointer;
+ width: 30%;
+ font-weight:500 ;
+ border-radius: 5px;
+ padding: 5px 15px;
+ color: #ff0000;
+ background: white;
+
+ text-align: center;
+ font-size: 14px;
+}
+.Forget-card-form .Forget-form-footer span {
+ margin-left: 8px;
+}
+
+.Forget-file-upload-wrapper {
+    position: relative;
+    width: 100%;
+    border: 1px solid #ff0000;
+    height: 32px;
+    border-radius: 5px;
+}
+.Forget-file-upload-wrapper:after {
+    content: attr(data-text);
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 10px 15px;
+    display: block;
+    width: calc(100% - 40px);
+    pointer-events: none;
+    z-index: 20;
+    height: 10px;
+    line-height: 10px;
+    color: #999;
+    border-radius: 5px 10px 10px 5px;
+    font-weight: 300;
+}
+.Forget-file-upload-wrapper:before {
+    content: 'Select Forget';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    height: 30px;
+    background: #fff;
+    color: #ff0000;
+    font-weight: 400;
+    z-index: 25;
+    font-size: 12px;
+    border: 1px solid #ff0000;
+    line-height: 30px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    pointer-events: none;
+    border-radius: 0 5px 5px 0;
+}
+.Forget-file-upload-wrapper:hover:before {
+    background: #ff0000;
+}
+.Forget-file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}

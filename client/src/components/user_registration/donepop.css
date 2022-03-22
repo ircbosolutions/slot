@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@400;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+ .done1-row h5{
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom:10px;
+    font-size: 14px;
+}
+.done1-row img{
+    width: 80px;
+    margin-left: 33%;
+
+}
+
+.done1-row{
+    text-align: center;
+    justify-content: center;
+   
+}
+.okBtn{
+text-decoration: none;
+ border: 1px solid #7cf782;
+ color: #7cf782;
+ background-color: #fff;
+ font-size: 18px;
+ text-align: center;
+ padding: 5px 20px;
+ width: 80px;
+ font-family: 'Yuji Hentaigana Akebono',sans-serif;
+margin-left: 85px;
+ font-weight: bold;
+ border-radius: 5px;
+}
+
+.okBtn:hover{
+    text-decoration: none;
+     border: 1px solid #7cf782;
+     color: #7cf782;
+     background-color: #fff;
+     font-size: 18px;
+     text-align: center;
+     padding: 5px 20px;
+     width: 80px;
+     font-family: 'Yuji Hentaigana Akebono',sans-serif;
+    margin-left: 85px;
+     font-weight: bold;
+     border-radius: 5px;
+    }
+.done1-closeBtn{
+ text-align: end;
+ margin-right: 0px;
+ }
+ .done1-closeBtn button{
+     background: none;
+     color: #fff;
+     border: none;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-size: 14px;
+     font-weight: bold;
+     margin-top: 3px;
+     border-radius: 80%;
+ }
+ 
+ .done1-top-section {
+     background: #ff0000;
+     border-radius: 10px 10px 0px 0px;
+     display: grid;
+     grid-template-columns: 60% 30%;    
+ }
+ 
+.done1-body-popup{
+ display: flex;
+ margin: 0;
+ margin-top: -850px;
+ height: 125vh;
+ justify-content: center;
+ align-items: center;
+ background: #c03a2b3a;
+ position: relative;
+ font-family: Raleway;
+ color: white;
+ letter-spacing: 1px;
+}
+.done1-card-form {
+ width: 300px;
+ border-radius: 10px;
+ background: white;
+ box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+.done1-card-form .done1-form-title {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ height: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ background: #ff0000;
+ border-radius: 10px 10px 0 0;
+}
+.done1-card-form .done1-form-body {
+ padding: 10px;
+}
+.done1-card-form .done1-form-body .done1-row {
+ display: grid;
+ grid-template-columns:100%;
+ justify-content: space-around;
+ padding: 10px;
+ 
+}

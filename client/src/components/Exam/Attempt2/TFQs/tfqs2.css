@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.questions button{
+  width: 400px;
+}
+.questions button:hover{
+background-color: #ff0000;
+color: #fff;
+cursor: pointer;
+}
+.questions button:focus{
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  }
+
+  .questions1 button{
+    width: 150px;
+  }
+  .questions1 button:hover{
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  }
+  .questions1 button:focus{
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    }
+.Menu {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input, button {
+  width: auto;
+  height: auto;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-align: left;
+  font-size: 14px;
+}
+.scqLink{
+  text-decoration: none;
+  color: white;
+  background-color: #ff0000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.scqLink:hover{
+  text-decoration: none;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#nextQuestion{
+  text-decoration: none;
+  color: white;
+  background-color: #ff0000;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+#nextQuestion:hover{
+  text-decoration: none;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* button:hover {
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+button:focus {
+  cursor: pointer;
+  background-color: #ff0000 !important;
+  color: #ffffff;
+} */
+
+.Quiz p{
+  color: black;
+}
+
+.Quiz {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 50px;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: white;
+}
+
+.EndScreen {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #ffffff;
+
+}
+.Menu p{
+  color: #ff0000;
+}

@@ -1,0 +1,220 @@
+.attempt-row select{
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.attempt-row select:focus{
+    border: 1px solid #ff0000;
+}
+.attempt-form-title h5{
+    font-size: 14px;
+    height: 30px;
+    padding-top: 10px;
+}
+.attempt-row1{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 100%;
+}
+.attempt-row span{
+    color: black;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.attempt-row1 input{
+    margin-left: 40px;
+    font-size: 14px;
+    background: none;
+
+}
+
+.attempt-row1 button:hover{
+    background: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+    margin-left: 130px;
+    font-size: 14px;
+    text-align: center;
+   padding-top: 5px;
+   padding-bottom:5px ;
+    width: 80px;
+    margin-top: 10px;
+   align-items: center;
+   
+    border-radius: 5px;
+   }
+.attempt-row1 button{
+ background: none;
+ color: #ff0000;
+ border: 1px solid #ff0000;
+ margin-left: 130px;
+ font-size: 14px;
+ text-align: center;
+padding-top: 5px;
+padding-bottom:5px ;
+ width: 80px;
+ margin-top: 10px;
+align-items: center;
+
+ border-radius: 5px;
+}
+.attempt-closeBtn{
+ text-align: end;
+ margin-right: 20px;
+ }
+ .attempt-closeBtn button{
+     background: none;
+     color: #fff;
+     border: none;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-size: 14px;
+     font-weight: bold;
+     margin-top: 3px;
+     border-radius: 80%;
+ }
+ 
+ .attempt-top-section {
+     background: #ff0000;
+     border-radius: 10px 10px 0px 0px;
+     display: grid;
+     height: 30px;
+     grid-template-columns: 60% 40%;    
+ }
+ 
+.attempt-body-popup{
+ display: flex;
+ margin: 0;
+ margin-top: -800px;
+ height: 110vh;
+ justify-content: center;
+ align-items: center;
+ background: #c03a2b3a;
+ position: relative;
+ font-family: Raleway;
+ color: white;
+ letter-spacing: 1px;
+}
+.attempt-card-form {
+ width: 400px;
+ border-radius: 10px;
+ background: white;
+ box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+.attempt-card-form .attempt-form-title {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ height: 30px;
+ font-size: 20px;
+ font-weight: bold;
+ background: #ff0000;
+ border-radius: 10px 10px 0 0;
+}
+.attempt-card-form .attempt-form-body {
+ padding: 10px;
+}
+.attempt-card-form .attempt-form-body .attempt-row {
+ display: grid;
+ grid-template-columns: 100%;
+ justify-content: space-around;
+ padding: 10px;
+ text-align: center;
+ 
+}
+
+.attempt-card-form .attempt-form-body .attempt-row input[type="text"] {
+ appearance: none;
+ width: auto;
+ margin: 0 5px;
+ height: 35px;
+ padding: 5px 15px;
+ border-radius: 5px;
+ outline: none;
+ border: none;
+ background: #e8ebed;
+ color: #576366;
+ font-size: 14px;
+}
+.attempt-card-form .attempt-rule {
+ height: 2px;
+ background: #e8ebed;
+ margin: 0px 35px;
+}
+.attempt-card-form .attempt-form-footer {
+width: 100%;
+text-align: center;
+ padding: 15px 10px;
+}
+.attempt-card-form .attempt-form-footer a,.attempt-card-form .attempt-form-footer button{
+ display: inline-block;
+ height: 40px;
+ line-height: 0px;
+ border: none;
+ cursor: pointer;
+ width: 20%;
+ border-radius: 5px;
+ padding: 5px 15px;
+ color: wheat;
+ background: #ff0000;
+ margin-right: 10px;
+ text-align: center;
+ font-size: 14px;
+}
+.attempt-card-form .attempt-form-footer span {
+ margin-left: 8px;
+}
+
+ .attempt-sub-row{
+    display: grid;
+    
+    width: auto;
+    grid-template-columns:30% 70%;
+}  
+
+.attempt-sub-row input[type="text"] {
+    appearance: none;
+    width: auto;
+    margin: 0 5px;
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #e8ebed;
+    width: 235px;
+    margin-left: 15px;
+    color: #576366;
+    margin-top: 5px;
+    font-size: 14px;
+   }
+
+   
+.attempt-sub-row select {
+   
+    width: auto;
+    margin: 0 5px;
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #e8ebed;
+    width: 235px;
+    margin-left: 15px;
+    color: #576366;
+    margin-top: 5px;
+    font-size: 14px;
+   }
+
+   .attempt-sub-row span{
+       color: black;
+       font-size: 14px;
+       text-align: center;
+       margin-top: 10px;
+   }
